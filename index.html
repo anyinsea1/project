@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Anyinsea Multi-Media</title>
+  <!-- You will need to link to the CSS file -->
+  <link rel="stylesheet" href="css/advSelectors.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <script src="js/script.js"></script> 
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi_Eo_uNB5xojhVlj0cSvtxWpJY5oPXBI&callback=myMap"></script>
+
+
+</head>
+  
+  <body>
+    <a href = "#main_content">Skip To Main Content</a>
+    <header>
+      <nav>
+        <h1>Anyinsea Multi-Media</h1>
+        <img src="images/anyinsea-logo.png" width="200" alt="Anyinsea Logo.">
+        <ul>
+            <li class = "current"><a href="index.html">Home</a></li>
+            <li><a href="anyinseamedia.html">Anyinsea Multi Media</a></li>
+            <li><a href="myworks.html">Portfolio</a></li>
+          </ul> 
+      </nav>
+      
+      
+    </header>
+    <main id="main_content">
+    <p>Anyinsea Multi-Media<a href="#"> best thing to happen</a> Seeing websites built with HTML has been what i early love to . Designing Developing a web page has been my hobby for some while now.trying to make good designs that will have flexible UX using html is a dream come through 
+      Click the button to see the person behind this project <button onclick="showContent()">David Longinus</button></p>
+    <template>
+      <h2>Ifeanyi Longinus</h2>
+      <img src="https://anyinsea1.github.io/project/images/anyinsea.jpeg" width="512" height="512">
+    </template>
+
+    <p>Sometimes we walk around the neighborhood, other times we make it to the woods. Ann Arbor also has some beautiful lakes and rivers including the 
+        <a href="#">Huron River Watertrail</a> and the <a href="#">Argo Park Cascades</a>
+    </p>
+    <div class="column">
+      <h2>Web Development</h2>
+      <p> Responsive and dynamic websites using HTML, CSS, and JavaScript. Let’s bring your ideas to life with a professional online presence! Whether you need a website or a custom app</p>
+      <p> I can bring your ideas to life with efficient, and user-friendly designs!"</p>
+    </div>
+    <div class="column">
+      <h2>App Development</h2>
+      <p>  "I develop responsive and dynamic websites using HTML, CSS, and JavaScript. Let’s bring your ideas to life with a professional online presence!".</p>
+      <p>Let’s create a user-friendly and engaging digital experience for your business!"</p>
+     </div>
+     <div class="column">
+      <h2>Thank You Colleen</h2>
+      <p>Your guidance has been invaluable in helping me understand the fundamentals of HTML, CSS, and JavaScript.</p>
+         <img src="images/Colleen.JPG" alt="Colleen" width="200"><p><a href="#">Colleen van Lent, Ph.D.</a></p>
+    </div>
+      <h3> Some of the website i designed </h3>
+      <div class = "container">
+        <div>
+          <img src="images/restpoint.png" alt="fastest growing electronics brand in Nigeria RestPoint" width="200">
+          <p><a href="#">RestPoint Products</a></p>
+          </div>
+          <div>
+          <img src="images/ganp.png" alt="One of my works wordpress for Ganp Nigeria Limited" width="200">
+          <p><a href="#">Ganp Lighting</a></p>
+        </div>
+      </div>
+    </main>
+    
+  <footer>
+    <p> Site created by <a
+        href="https://www.linkedin.com/in/anyinsea/">David Longinus</a> using html for class work. Copyright @ Anyinsea Multimedia Company </p>
+  </footer>
+  <script>
+    function showContent() {
+      let temp = document.getElementsByTagName("template")[0];
+      let clon = temp.content.cloneNode(true);
+      document.body.appendChild(clon);
+    }
+    </script>
+
+  </body>
+
+</html>
